@@ -1,0 +1,14 @@
+com/project/sdk/fileuploadingsystem/configurations/launcher/MongoConfig.java
+ com.project.sdk.fileuploadingsystem.configurations.launcher.MongoConfig
+com/project/sdk/fileuploadingsystem/configurations/data/File.java
+ com.project.sdk.fileuploadingsystem.configurations.data.File
+com/project/sdk/fileuploadingsystem/configurations/repository/FileUploadRepository.java
+ com.project.sdk.fileuploadingsystem.configurations.repository.FileUploadRepository
+com/project/sdk/fileuploadingsystem/configurations/launcher/FileUploadingSystemLauncher.java
+ com.project.sdk.fileuploadingsystem.configurations.launcher.FileUploadingSystemLauncher
+com/project/sdk/fileuploadingsystem/configurations/controller/FileController.java
+ com.project.sdk.fileuploadingsystem.configurations.controller.FileController
+com/project/sdk/fileuploadingsystem/configurations/service/FileService.java
+ com.project.sdk.fileuploadingsystem.configurations.service.FileService
+com/project/sdk/fileuploadingsystem/configurations/launcher/WebConfig.java
+ com.project.sdk.fileuploadingsystem.configurations.launcher.WebConfig

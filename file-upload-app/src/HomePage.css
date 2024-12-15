@@ -1,0 +1,139 @@
+/* Custom styles for HomePage */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    height: 120px; /* Set a fixed height for the header */
+    text-align: center; /* Ensure the text is centered */
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px; /* Fixed height to make the cards more uniform */
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .file-name {
+    font-size: 1.3rem; /* Increased font size for visibility */
+    font-weight: bold;
+    color: #007bff; /* Blue color to stand out */
+    text-transform: uppercase; /* Uppercase text for more emphasis */
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Text shadow for depth */
+    letter-spacing: 1px; /* Slight letter-spacing for better readability */
+  }
+  
+  .uploaded-by {
+    font-size: 1rem;
+    color: #6c757d; /* Slightly lighter gray */
+    margin-bottom: 20px;
+  }
+  
+  .download-btn {
+    background-color: #343a40;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #495057;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Flexbox Layout for file cards */
+  .file-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the items */
+  }
+  
+  .file-card {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards per row */
+    max-width: calc(33.33% - 20px); /* Ensure the cards do not overflow */
+  }
+  
+  .upload-btn-container {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px; /* Add margin to the top to separate from the header */
+  }
+  
+  .upload-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .file-card {
+      flex: 1 1 100%; /* 1 card per row on small screens */
+      max-width: 100%;
+    }
+  
+    .header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  
+    .download-btn {
+      padding: 12px;
+    }
+  }
+  
